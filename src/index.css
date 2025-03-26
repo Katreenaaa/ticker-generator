@@ -1,0 +1,17 @@
+
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+input{
+  border:1px solid black;
+}
+
+
+@import "tailwindcss";
+
+@theme{
+  --breakpoint-xs:25rem;
+}
