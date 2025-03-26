@@ -84,7 +84,7 @@ const Form = ({ setUserData }) => {
             name="name" 
             value={formData.name} 
             onChange={handleChange} 
-            className="h-12 mt-1 w-full px-4 py-2 rounded-md bg-white bg-opacity-20 placeholder-gray-300 text-black focus:outline-none focus:ring-2 focus:ring-indigo-400"
+            className="h-12 mt-1 w-full px-4 py-2 rounded-md bg-white bg-opacity-20 placeholder-gray-600 text-black focus:outline-none focus:ring-2 focus:ring-indigo-400"
             placeholder="Enter your name"
           />
           {errors.name && <span className="text-red-500 text-sm">{errors.name}</span>}
@@ -97,7 +97,7 @@ const Form = ({ setUserData }) => {
             name="email" 
             value={formData.email} 
             onChange={handleChange} 
-            className="h-12 mt-1 w-full px-4 py-2 rounded-md bg-white bg-opacity-20 text-black placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+            className="h-12 mt-1 w-full px-4 py-2 rounded-md bg-white bg-opacity-20 text-black placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-400"
             placeholder="example@email.com"
           />
           {errors.email && <span className="text-red-500 text-sm">{errors.email}</span>}
@@ -110,7 +110,7 @@ const Form = ({ setUserData }) => {
             name="github" 
             value={formData.github} 
             onChange={handleChange} 
-            className="h-12 mt-1 w-full px-4 py-2 rounded-md bg-white bg-opacity-20 text-black placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+            className="h-12 mt-1 w-full px-4 py-2 rounded-md bg-white bg-opacity-20 text-black placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-400"
             placeholder="@yourusername"
           />
           {errors.github && <span className="text-red-500 text-sm">{errors.github}</span>}
